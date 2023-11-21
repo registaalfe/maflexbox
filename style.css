@@ -12,14 +12,14 @@ header {
   display: flex;
   background-color: #564cf8;
   justify-content: space-around;
-  /* padding: 20px 0; */
   color: #ffffff;
-  height: 50px;
+  height: 100px;
   align-items: center;
 }
 
 header .logo {
   font-family: "Poppins", sans-serif;
+  margin: 0 230px 0 0;
 }
 
 header ul {
@@ -37,6 +37,139 @@ header ul li a {
 
 header ul li a:hover {
   color: #d3d1fd;
+}
+
+/* Hero */
+.hero-content {
+  background-color: #564cf8;
+  display: flex;
+  color: #ffffff;
+  padding-top: 64px;
+  padding-bottom: 88px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hero-content .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.content-left h1 {
+  font-size: 54px;
+  margin-bottom: 16px;
+  line-height: 126%;
+}
+
+.content-left .hero-paragraph {
+  margin-bottom: 16px;
+}
+
+.hero-btn {
+  margin-top: 32px;
+}
+
+.hero-btn .btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #f580f7;
+  cursor: pointer;
+}
+
+.hero-btn .btn-primary {
+  text-decoration: none;
+  color: #564cf8;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #cae062;
+  margin-left: 16px;
+}
+
+.content-right {
+  display: flex;
+}
+
+.content-right img {
+  width: 670px;
+  height: auto;
+}
+
+/* about page */
+.about-page {
+  background-color: #1c1c1c;
+  padding-top: 64px;
+  padding-bottom: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-page .container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-page .title-about {
+  display: flex;
+  height: 100%;
+  width: 70%;
+  margin: 0 168px 0 0;
+}
+
+.about-page .title-about h1 {
+  font-size: 54px;
+  color: white;
+  margin-bottom: 62px;
+  line-height: 126%;
+}
+
+.cards {
+  width: 300px;
+  margin: 10px;
+  background-color: #d3d1fd;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-body h4 {
+  padding: 20px;
+}
+
+.card-body p {
+  margin: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer a {
+  padding: 12px 24px 12px 24px;
+  background-color: #1c1c1c;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #cae062;
+  cursor: pointer;
 }
 
 /* Responsive Breakpoint */
