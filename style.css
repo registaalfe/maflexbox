@@ -228,10 +228,14 @@ header ul li a:hover {
   margin-bottom: 16px;
 }
 
+.studycase-page .container {
+  display: flex;
+}
+
 .main-case {
   display: flex;
   max-width: 1180px;
-  margin: 0 400px 0 0;
+  margin: 0 0 0 136px;
   flex-wrap: wrap;
 }
 
@@ -255,15 +259,24 @@ header ul li a:hover {
   padding: 0 0 0 12px;
 }
 
+.main-card {
+  display: flex;
+  flex-direction: column;
+  margin: -130px 0 0 0;
+}
+
 .case-card {
+  border-radius: 14px;
   display: flex;
   background-color: #2e2e2e;
-  width: 28%;
-  padding: 16px 0 16px 16px;
+  width: 52%;
+  padding: 20px 0 20px 20px;
+  margin: 6px;
 }
 
 .case-body {
   display: flex;
+  align-items: center;
 }
 
 .case-body h3 {
@@ -272,9 +285,9 @@ header ul li a:hover {
 }
 
 .case-body p {
+  width: 100%;
   font-size: 14px;
-  text-align: center;
-  margin-top: 6px;
+  text-align: left;
 }
 
 /* Responsive Breakpoint */
