@@ -124,12 +124,12 @@ header ul li a:hover {
 .about-page .title-about {
   display: flex;
   height: 100%;
-  width: 70%;
-  margin: 0 168px 0 0;
+  width: 58%;
+  margin: 0 330px 0 0;
 }
 
 .about-page .title-about h1 {
-  font-size: 54px;
+  font-size: 46px;
   color: white;
   margin-bottom: 62px;
   line-height: 126%;
@@ -178,7 +178,7 @@ header ul li a:hover {
 .card-body p {
   margin: 16px 0 0 28px;
   width: 64%;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .card-footer {
@@ -196,6 +196,85 @@ header ul li a:hover {
   border-radius: 30px;
   color: #cae062;
   cursor: pointer;
+}
+
+/* Case Study Page */
+.studycase-page {
+  display: flex;
+  background-color: #1c1c1c;
+  padding-top: 64px;
+  padding-bottom: 88px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title-studycase {
+  display: flex;
+  flex-direction: column;
+  width: 56%;
+  margin: 0 350px 0 0;
+}
+
+.title-studycase h1 {
+  font-size: 46px;
+  margin-bottom: 16px;
+}
+
+.title-studycase p {
+  font-size: 16px;
+  width: 58%;
+  margin-bottom: 16px;
+}
+
+.main-case {
+  display: flex;
+  max-width: 1180px;
+  margin: 0 400px 0 0;
+  flex-wrap: wrap;
+}
+
+.case-content {
+  height: 140px;
+  width: 34%;
+  background-color: #f982fb;
+  margin: 1px 1px 0 0;
+  padding: 16px;
+  color: #1c1c1c;
+}
+
+.case-content h3 {
+  font-size: 36px;
+  padding: 20px 0 4px 12px;
+}
+
+.case-content p {
+  font-size: 14px;
+  width: 80%;
+  padding: 0 0 0 12px;
+}
+
+.case-card {
+  display: flex;
+  background-color: #2e2e2e;
+  width: 28%;
+  padding: 16px 0 16px 16px;
+}
+
+.case-body {
+  display: flex;
+}
+
+.case-body h3 {
+  font-size: 36px;
+  padding-right: 16px;
+}
+
+.case-body p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 6px;
 }
 
 /* Responsive Breakpoint */
