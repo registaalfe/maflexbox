@@ -79,19 +79,23 @@ header ul li a:hover {
 .hero-btn .btn {
   text-decoration: none;
   color: #ffffff;
-  padding: 16px 32px;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #f580f7;
   cursor: pointer;
+  width: 160px;
+  height: 55px;
+  border-style: none;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero-btn .btn-primary {
   text-decoration: none;
   color: #564cf8;
-  padding: 16px 32px;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #cae062;
-  margin-left: 16px;
+  margin-left: 4px;
+  font-family: "Poppins", sans-serif;
 }
 
 .content-right {
@@ -185,7 +189,7 @@ header ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: -42px 0 0 0;
+  margin: -50px 0 0 0;
 }
 
 .card-footer a {
@@ -196,6 +200,7 @@ header ul li a:hover {
   border-radius: 30px;
   color: #cae062;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 /* Case Study Page */
