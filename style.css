@@ -79,23 +79,19 @@ header ul li a:hover {
 .hero-btn .btn {
   text-decoration: none;
   color: #ffffff;
-  border-radius: 30px;
+  padding: 16px 32px;
+  border-radius: 10px;
   background-color: #f580f7;
   cursor: pointer;
-  width: 160px;
-  height: 55px;
-  border-style: none;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
 }
 
 .hero-btn .btn-primary {
   text-decoration: none;
   color: #564cf8;
-  border-radius: 30px;
+  padding: 16px 32px;
+  border-radius: 10px;
   background-color: #cae062;
-  margin-left: 4px;
-  font-family: "Poppins", sans-serif;
+  margin-left: 16px;
 }
 
 .content-right {
@@ -134,7 +130,7 @@ header ul li a:hover {
 
 .about-page .title-about h1 {
   font-size: 46px;
-  color: white;
+  color: #ffffff;
   margin-bottom: 62px;
   line-height: 126%;
 }
@@ -174,7 +170,7 @@ header ul li a:hover {
 .card-body h4 {
   padding: 28px 0 0 28px;
   text-transform: uppercase;
-  width: 50%;
+  width: 60%;
   font-size: 20px;
   line-height: 24px;
 }
@@ -189,7 +185,7 @@ header ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: -50px 0 0 0;
+  margin: -42px 0 0 0;
 }
 
 .card-footer a {
@@ -200,7 +196,6 @@ header ul li a:hover {
   border-radius: 30px;
   color: #cae062;
   cursor: pointer;
-  text-transform: uppercase;
 }
 
 /* Case Study Page */
@@ -209,7 +204,7 @@ header ul li a:hover {
   background-color: #1c1c1c;
   padding-top: 64px;
   padding-bottom: 88px;
-  color: white;
+  color: #ffffff;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -275,7 +270,7 @@ header ul li a:hover {
   display: flex;
   background-color: #2e2e2e;
   width: 52%;
-  padding: 20px 0 20px 20px;
+  padding: 20px 14px 20px 28px;
   margin: 6px;
 }
 
@@ -293,6 +288,127 @@ header ul li a:hover {
   width: 100%;
   font-size: 14px;
   text-align: left;
+}
+
+/* Portfolio Page */
+.portfolio-page {
+  display: flex;
+  background-color: #f982fb;
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+.portfolio-page .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid;
+  width: 92%;
+  padding-right: 114px;
+  align-items: center;
+}
+
+.main-content h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  width: 20%;
+  /* padding-bottom: 60px; */
+  line-height: 50px;
+  margin-bottom: 40px;
+  margin-left: 130px;
+}
+
+.sub-content {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  border-bottom: 1.5px solid;
+  width: 92%;
+  align-items: center;
+  padding-right: 114px;
+  margin-top: 24px;
+}
+
+.sub-content h4 {
+  margin-left: 130px;
+  text-transform: uppercase;
+  width: 28%;
+  margin-bottom: 20px;
+}
+
+.main-content .head-text {
+  font-size: 16px;
+  width: 22%;
+  margin-bottom: 30px;
+}
+
+.sub-content .sub-text {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 18%;
+  margin-bottom: 20px;
+  margin-right: 52px;
+}
+
+/* Footer */
+footer {
+  padding-top: 88px;
+  padding-bottom: 30px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  display: flex;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .container h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 146px;
+  width: 60%;
+  line-height: 116px;
+  margin-bottom: 440px;
+  margin-left: 130px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid;
+}
+
+.contact .logo {
+  font-family: "Poppins", sans-serif;
+  margin-left: 130px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  width: 20%;
+  justify-content: space-between;
+  margin-right: 60px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+footer ul li a:hover {
+  color: #d3d1fd;
 }
 
 /* Responsive Breakpoint */
